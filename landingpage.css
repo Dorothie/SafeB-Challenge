@@ -1,0 +1,77 @@
+html, body{
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+}
+.intro{
+    height: 100%;
+    width:100%;
+    margin: auto;
+    background-image: url(motorbike.jpg);
+    display: table;
+    top:0;
+    background-size: cover;
+}
+.inner{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+.content{
+    max-width: 500px;
+    margin:0 auto;
+    text-align: center;
+}
+.content logo{
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    overflow: hidden;
+    position:center;
+    
+}
+.content h1{
+    font-family: sans-serif;
+    color: #ffffff;
+    text-shadow: 0px 0px 300px #000 ;
+    font-size: 500%;
+}
+.btn{
+    border:solid color 3px;
+    border-radius: 9px;
+    font-family: sans-serif;
+    color: #ff7f00;
+    font-size: 135%;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.btn:hover{
+    color:#ffffff;
+    border:solid #fff 3px;
+}
+h2{
+    font-family: sans-serif;
+    color: #ff7f00;
+    text-shadow: 0px 0px 300px #000 ;
+    font-size: 150%;
+    text-align: center;
+}
+
+p {
+    font-size: 160%;
+    line-height: 210%;
+    text-align: justify;
+    margin: 30%;
+    font-family: sans-serif;
+    color:#ff7f00
+}
+.container-fluid{
+    font-size: 100%;
+    text-align: justify;
+    font-family: sans-serif;
+    color:#ff7f00;
+    text-decoration:none;
+}
